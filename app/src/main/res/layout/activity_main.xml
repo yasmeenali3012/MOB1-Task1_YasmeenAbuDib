@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btnBirthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Birthday Card"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnTaskDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Task Done"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnQuadrant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Quadrant"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnArticle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Article"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnBusinessCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. Business Card" />
+
+</LinearLayout>
